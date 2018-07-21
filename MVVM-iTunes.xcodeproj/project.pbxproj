@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8020CBB42102DD1800B1AF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020CBB32102DD1800B1AF85 /* AppDelegate.swift */; };
+		8020CBB62102DD1800B1AF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020CBB52102DD1800B1AF85 /* ViewController.swift */; };
+		8020CBB92102DD1800B1AF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020CBB72102DD1800B1AF85 /* Main.storyboard */; };
+		8020CBBB2102DD1A00B1AF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8020CBBA2102DD1A00B1AF85 /* Assets.xcassets */; };
+		8020CBBE2102DD1A00B1AF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020CBBC2102DD1A00B1AF85 /* LaunchScreen.storyboard */; };
+		8020CBC92102DD1A00B1AF85 /* MVVM_iTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020CBC82102DD1A00B1AF85 /* MVVM_iTunesTests.swift */; };
+		8020CBD42102DD1A00B1AF85 /* MVVM_iTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020CBD32102DD1A00B1AF85 /* MVVM_iTunesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8020CBC52102DD1A00B1AF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8020CBA82102DD1800B1AF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8020CBAF2102DD1800B1AF85;
+			remoteInfo = "MVVM-iTunes";
+		};
+		8020CBD02102DD1A00B1AF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8020CBA82102DD1800B1AF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8020CBAF2102DD1800B1AF85;
+			remoteInfo = "MVVM-iTunes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8020CBB02102DD1800B1AF85 /* MVVM-iTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-iTunes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020CBB32102DD1800B1AF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8020CBB52102DD1800B1AF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8020CBB82102DD1800B1AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8020CBBA2102DD1A00B1AF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8020CBBD2102DD1A00B1AF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8020CBBF2102DD1A00B1AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020CBC42102DD1A00B1AF85 /* MVVM-iTunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-iTunesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020CBC82102DD1A00B1AF85 /* MVVM_iTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_iTunesTests.swift; sourceTree = "<group>"; };
+		8020CBCA2102DD1A00B1AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020CBCF2102DD1A00B1AF85 /* MVVM-iTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-iTunesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020CBD32102DD1A00B1AF85 /* MVVM_iTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_iTunesUITests.swift; sourceTree = "<group>"; };
+		8020CBD52102DD1A00B1AF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8020CBAD2102DD1800B1AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBC12102DD1A00B1AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBCC2102DD1A00B1AF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8020CBA72102DD1800B1AF85 = {
+			isa = PBXGroup;
+			children = (
+				8020CBB22102DD1800B1AF85 /* MVVM-iTunes */,
+				8020CBC72102DD1A00B1AF85 /* MVVM-iTunesTests */,
+				8020CBD22102DD1A00B1AF85 /* MVVM-iTunesUITests */,
+				8020CBB12102DD1800B1AF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8020CBB12102DD1800B1AF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8020CBB02102DD1800B1AF85 /* MVVM-iTunes.app */,
+				8020CBC42102DD1A00B1AF85 /* MVVM-iTunesTests.xctest */,
+				8020CBCF2102DD1A00B1AF85 /* MVVM-iTunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8020CBB22102DD1800B1AF85 /* MVVM-iTunes */ = {
+			isa = PBXGroup;
+			children = (
+				8020CBB32102DD1800B1AF85 /* AppDelegate.swift */,
+				8020CBB52102DD1800B1AF85 /* ViewController.swift */,
+				8020CBB72102DD1800B1AF85 /* Main.storyboard */,
+				8020CBBA2102DD1A00B1AF85 /* Assets.xcassets */,
+				8020CBBC2102DD1A00B1AF85 /* LaunchScreen.storyboard */,
+				8020CBBF2102DD1A00B1AF85 /* Info.plist */,
+			);
+			path = "MVVM-iTunes";
+			sourceTree = "<group>";
+		};
+		8020CBC72102DD1A00B1AF85 /* MVVM-iTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8020CBC82102DD1A00B1AF85 /* MVVM_iTunesTests.swift */,
+				8020CBCA2102DD1A00B1AF85 /* Info.plist */,
+			);
+			path = "MVVM-iTunesTests";
+			sourceTree = "<group>";
+		};
+		8020CBD22102DD1A00B1AF85 /* MVVM-iTunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8020CBD32102DD1A00B1AF85 /* MVVM_iTunesUITests.swift */,
+				8020CBD52102DD1A00B1AF85 /* Info.plist */,
+			);
+			path = "MVVM-iTunesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8020CBAF2102DD1800B1AF85 /* MVVM-iTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020CBD82102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunes" */;
+			buildPhases = (
+				8020CBAC2102DD1800B1AF85 /* Sources */,
+				8020CBAD2102DD1800B1AF85 /* Frameworks */,
+				8020CBAE2102DD1800B1AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MVVM-iTunes";
+			productName = "MVVM-iTunes";
+			productReference = 8020CBB02102DD1800B1AF85 /* MVVM-iTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8020CBC32102DD1A00B1AF85 /* MVVM-iTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020CBDB2102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunesTests" */;
+			buildPhases = (
+				8020CBC02102DD1A00B1AF85 /* Sources */,
+				8020CBC12102DD1A00B1AF85 /* Frameworks */,
+				8020CBC22102DD1A00B1AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8020CBC62102DD1A00B1AF85 /* PBXTargetDependency */,
+			);
+			name = "MVVM-iTunesTests";
+			productName = "MVVM-iTunesTests";
+			productReference = 8020CBC42102DD1A00B1AF85 /* MVVM-iTunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8020CBCE2102DD1A00B1AF85 /* MVVM-iTunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020CBDE2102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunesUITests" */;
+			buildPhases = (
+				8020CBCB2102DD1A00B1AF85 /* Sources */,
+				8020CBCC2102DD1A00B1AF85 /* Frameworks */,
+				8020CBCD2102DD1A00B1AF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8020CBD12102DD1A00B1AF85 /* PBXTargetDependency */,
+			);
+			name = "MVVM-iTunesUITests";
+			productName = "MVVM-iTunesUITests";
+			productReference = 8020CBCF2102DD1A00B1AF85 /* MVVM-iTunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8020CBA82102DD1800B1AF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Moises Apaza";
+				TargetAttributes = {
+					8020CBAF2102DD1800B1AF85 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8020CBC32102DD1A00B1AF85 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8020CBAF2102DD1800B1AF85;
+					};
+					8020CBCE2102DD1A00B1AF85 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8020CBAF2102DD1800B1AF85;
+					};
+				};
+			};
+			buildConfigurationList = 8020CBAB2102DD1800B1AF85 /* Build configuration list for PBXProject "MVVM-iTunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8020CBA72102DD1800B1AF85;
+			productRefGroup = 8020CBB12102DD1800B1AF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8020CBAF2102DD1800B1AF85 /* MVVM-iTunes */,
+				8020CBC32102DD1A00B1AF85 /* MVVM-iTunesTests */,
+				8020CBCE2102DD1A00B1AF85 /* MVVM-iTunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8020CBAE2102DD1800B1AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020CBBE2102DD1A00B1AF85 /* LaunchScreen.storyboard in Resources */,
+				8020CBBB2102DD1A00B1AF85 /* Assets.xcassets in Resources */,
+				8020CBB92102DD1800B1AF85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBC22102DD1A00B1AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBCD2102DD1A00B1AF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8020CBAC2102DD1800B1AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020CBB62102DD1800B1AF85 /* ViewController.swift in Sources */,
+				8020CBB42102DD1800B1AF85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBC02102DD1A00B1AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020CBC92102DD1A00B1AF85 /* MVVM_iTunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020CBCB2102DD1A00B1AF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020CBD42102DD1A00B1AF85 /* MVVM_iTunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8020CBC62102DD1A00B1AF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8020CBAF2102DD1800B1AF85 /* MVVM-iTunes */;
+			targetProxy = 8020CBC52102DD1A00B1AF85 /* PBXContainerItemProxy */;
+		};
+		8020CBD12102DD1A00B1AF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8020CBAF2102DD1800B1AF85 /* MVVM-iTunes */;
+			targetProxy = 8020CBD02102DD1A00B1AF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8020CBB72102DD1800B1AF85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8020CBB82102DD1800B1AF85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8020CBBC2102DD1A00B1AF85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8020CBBD2102DD1A00B1AF85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8020CBD62102DD1A00B1AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8020CBD72102DD1A00B1AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8020CBD92102DD1A00B1AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8020CBDA2102DD1A00B1AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8020CBDC2102DD1A00B1AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-iTunes.app/MVVM-iTunes";
+			};
+			name = Debug;
+		};
+		8020CBDD2102DD1A00B1AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVM-iTunes.app/MVVM-iTunes";
+			};
+			name = Release;
+		};
+		8020CBDF2102DD1A00B1AF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-iTunes";
+			};
+			name = Debug;
+		};
+		8020CBE02102DD1A00B1AF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "MVVM-iTunesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moises.MVVM-iTunesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MVVM-iTunes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8020CBAB2102DD1800B1AF85 /* Build configuration list for PBXProject "MVVM-iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020CBD62102DD1A00B1AF85 /* Debug */,
+				8020CBD72102DD1A00B1AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020CBD82102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020CBD92102DD1A00B1AF85 /* Debug */,
+				8020CBDA2102DD1A00B1AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020CBDB2102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020CBDC2102DD1A00B1AF85 /* Debug */,
+				8020CBDD2102DD1A00B1AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020CBDE2102DD1A00B1AF85 /* Build configuration list for PBXNativeTarget "MVVM-iTunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020CBDF2102DD1A00B1AF85 /* Debug */,
+				8020CBE02102DD1A00B1AF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8020CBA82102DD1800B1AF85 /* Project object */;
+}
