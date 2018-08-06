@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.7.2)
+  - IHKeyboardAvoiding (4.2)
+  - Kingfisher (4.7.0)
+  - RxAlamofire (4.2.0):
+    - RxAlamofire/Core (= 4.2.0)
+  - RxAlamofire/Core (4.2.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - IHKeyboardAvoiding
+  - Kingfisher (~> 4.0)
+  - RxAlamofire
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IHKeyboardAvoiding
+    - Kingfisher
+    - RxAlamofire
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  IHKeyboardAvoiding: 9fbf816b7c3c84911964802ff110d12caf40ebef
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  RxAlamofire: 87a9c588541210cc3e4a1f843ccc3ecf3eb98b31
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: dd3ce875030774d42a9673c75b84aa648578f034
+
+COCOAPODS: 1.5.2

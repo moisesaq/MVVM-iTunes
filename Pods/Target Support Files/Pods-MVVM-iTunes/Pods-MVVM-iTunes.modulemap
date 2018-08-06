@@ -1,0 +1,6 @@
+module Pods_MVVM_iTunes {
+  umbrella header "Pods-MVVM-iTunes-umbrella.h"
+
+  export *
+  module * { export * }
+}
